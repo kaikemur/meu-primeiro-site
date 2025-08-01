@@ -1,0 +1,18 @@
+/*RESSET DO CSS*/
+*{
+margin: 0 ;
+padding: 0 ;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+h1,h2 {
+    text-align: center;
+  
+}
+header{
+   background-color: rgb(17, 140, 255);
+   padding: 73pX;
+   color: rgb(112, 62, 27);
+   
+}
