@@ -7,12 +7,17 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 h1,h2 {
-    text-align: center;
-  
+    text-align: center; 
+      margin :10px;
 }
 header{
-   background-color: rgb(17, 140, 255);
+   background-color: rgb(70, 2, 109);
    padding: 73pX;
-   color: rgb(112, 62, 27);
+   color: rgb(169, 116, 212);
    
+}
+main{
+    flex: 1;
+    height: 700px;
+    background-color: rgb(194, 173, 233);
 }
