@@ -1,23 +1,46 @@
 /*RESSET DO CSS*/
 *{
-margin: 0 ;
+margin: 0px ;
 padding: 0 ;
+box-sizing: border-box;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    line-height: 2;
 }
-h1,h2 {
-    text-align: center; 
-      margin :10px;
-}
+
 header{
-   background-color: rgb(70, 2, 109);
+   background-color: rgb(102, 25, 25);
+   color: rgb(0, 0, 0);
    padding: 73pX;
-   color: rgb(169, 116, 212);
+   text-align: center;
    
 }
+
 main{
-    flex: 1;
-    height: 700px;
-    background-color: rgb(194, 173, 233);
+    background-color: rgb(58, 16, 16);
+    flex:1;
+    padding: 48px 38px;
+}
+#obre-mim {
+    display: block;
+    background-color: rgba(180, 174, 175, 0.979);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+
+}
+#titulo-sobre-mim{
+    font-size: 30px;
+    margin-bottom: 16px;
+    border-bottom: 3px solid black; 
+    margin-bottom: 20px;
+}
+.texto-sobre-mim{
+    font-size: 30px;
+
 }
